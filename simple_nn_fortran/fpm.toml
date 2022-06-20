@@ -1,0 +1,14 @@
+name = "simple_nn_fortran"
+version = "0.1.0"
+license = "license"
+author = "mizu-bai"
+maintainer = "shiragawa4519@outlook.com"
+copyright = "Copyright 2022, mizu-bai"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+[dependencies]
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
