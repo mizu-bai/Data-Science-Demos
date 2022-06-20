@@ -30,4 +30,8 @@ program main
 
   print *, 'Result: y =', param(1), '+', param(2), '* x +', param(3), '* x^2 +', param(4), '* x^3'
 
+  deallocate(x)
+  deallocate(y)
+  deallocate(param)
+
 end program main
