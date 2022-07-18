@@ -2,7 +2,7 @@
 
 Some Demos about Data Science
 
-* SGD (use GSL)
+* SGD (implemented via GNU Scientific Library and pure Fortran)
 * Bootstrapping
 * K-Folder
 * GA
